@@ -37,5 +37,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/exoup/hono-sessions-neo4j.git"
-  }
+  },
+  "license": "MIT"
 }
