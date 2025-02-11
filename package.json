@@ -28,5 +28,9 @@
   },
   "dependencies": {
     "hono-sessions": "^0.7.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/exoup/hono-sessions-neo4j.git
   }
 }
