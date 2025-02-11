@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "description": "Neo4j session store-connector for hono-sessions",
   "packageManager": "yarn@4.6.0",
+  "files": [
+    "dist",
+    "package.json",
+    "README.md"
+  ],
   "main": "./dist/index.cjs",
   "exports": {
     "require": {
