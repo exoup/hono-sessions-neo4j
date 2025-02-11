@@ -28,6 +28,5 @@
   },
   "dependencies": {
     "hono-sessions": "^0.7.1"
-  },
-  "author": "JosephY"
+  }
 }
