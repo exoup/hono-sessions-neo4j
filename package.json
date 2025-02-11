@@ -1,0 +1,33 @@
+{
+  "name": "hono-sessions-neo4j",
+  "version": "1.0.0",
+  "description": "Neo4j session store-connector for hono-sessions",
+  "packageManager": "yarn@4.6.0",
+  "main": "./dist/index.cjs",
+  "exports": {
+    "require": {
+      "types": "./dist/index.d.cts",
+      "default": "./dist/index.cjs"
+    },
+    "import": {
+      "types": "./dist/index.d.mts",
+      "default": "./dist/index.mjs"
+    }
+  },
+  "scripts": {
+    "clean:build": "pkgroll --env.NODE_ENV=production --clean-dist",
+    "build": "pkgroll"
+  },
+  "devDependencies": {
+    "neo4j-driver": "^5.27.0",
+    "pkgroll": "^2.8.2",
+    "typescript": "^5.7.3"
+  },
+  "peerDependencies": {
+    "neo4j-driver": ">=5.8.0"
+  },
+  "dependencies": {
+    "hono-sessions": "^0.7.1"
+  },
+  "author": "JosephY"
+}
